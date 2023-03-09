@@ -4,7 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/WebXR Interactions/0.16.3-preview/Sample Scene/Scenes/Desert.unity
+    guid: 85380d4847db7b74a850284461349c36
   m_configObjects:
+    WebXR.Settings: {fileID: 11400000, guid: 36ecb3f5886edb0458b403cefc0c77b3, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eed3def2652d4794b8f989a25d94e927, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fc418d7444200ad498087be2735adcd3, type: 2}
