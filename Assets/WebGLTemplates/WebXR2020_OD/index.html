@@ -55,8 +55,8 @@
       var unityInstance = null;
       {{{ WEBXR_POLYFILL_CONFIG }}}
 
-      canvasContainer.style.width = "{{{ WIDTH }}}px";
-      canvasContainer.style.height = "{{{ HEIGHT }}}px";
+      canvasContainer.style.width = "auto";
+      canvasContainer.style.height = "92%";
 #if BACKGROUND_FILENAME
       canvas.style.background = "url('" + buildUrl + "/{{{ BACKGROUND_FILENAME.replace(/'/g, '%27') }}}') center / cover";
 #endif
